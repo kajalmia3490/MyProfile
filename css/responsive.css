@@ -1,0 +1,117 @@
+/* smart phone devices */
+@media only screen and (min-width: 380px) and (max-width: 767px) {
+    .main-section {
+        display: block;
+    }
+
+    .left-side {
+        margin-left: 0px;
+    }
+
+    h3,
+    h2 {
+        color: white;
+    }
+
+    .dp img {
+        width: 200px;
+        height: auto;
+        border-radius: 200px;
+    }
+
+    .right {
+        float: left;
+    }
+
+    .header {
+        float: left;
+        margin-top: 30px;
+    }
+
+    .right-side {
+        float: left;
+        height: auto;
+        width: auto;
+        margin: 20px;
+        line-height: 1.5rem;
+        margin: 20px;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: justify;
+        background-color: white;
+    }
+
+    .last-section {
+        text-align: center;
+    }
+
+    .skill-header {
+        font-size: 20px;
+        margin-left: -5px;
+    }
+
+    .sub-section {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .card1 {
+        width: auto;
+        margin: 0px 20px 0px 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .btn {
+        display: block;
+    }
+
+}
+
+/* tab devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .left-side {
+        margin-left: 50px;
+    }
+
+    .dp img {
+        width: 200px;
+    }
+
+    .right-side {
+        margin: 100px 0px 0px 150px;
+    }
+
+    .another {
+        margin-top: 50px;
+    }
+
+    .bottom {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .last-section {
+        margin: 20px;
+    }
+    .first-card {
+        margin-left: 20px;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-between;
+
+    }
+
+    .second-card {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-between;
+    }
+}
